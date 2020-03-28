@@ -13,6 +13,14 @@
 		E74639542423404D00C95602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74639522423404D00C95602 /* Main.storyboard */; };
 		E74639562423405000C95602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74639552423405000C95602 /* Assets.xcassets */; };
 		E74639592423405000C95602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74639572423405000C95602 /* LaunchScreen.storyboard */; };
+		E746396124234C7200C95602 /* HairCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746396024234C7200C95602 /* HairCollectionViewController.swift */; };
+		E746396324234C9000C95602 /* FaceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746396224234C9000C95602 /* FaceCollectionViewController.swift */; };
+		E746396524234CF600C95602 /* BodyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746396424234CF600C95602 /* BodyCollectionViewController.swift */; };
+		E746396724234D0B00C95602 /* GlassesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746396624234D0B00C95602 /* GlassesCollectionViewController.swift */; };
+		E746396924234D8300C95602 /* HairCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746396824234D8300C95602 /* HairCollectionViewCell.swift */; };
+		E746396B24234D9A00C95602 /* FaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746396A24234D9A00C95602 /* FaceCollectionViewCell.swift */; };
+		E746396D24234DBE00C95602 /* BodyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746396C24234DBE00C95602 /* BodyCollectionViewCell.swift */; };
+		E746396F24234DDD00C95602 /* GlassesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E746396E24234DDD00C95602 /* GlassesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		E74639552423405000C95602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E74639582423405000C95602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E746395A2423405000C95602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E746396024234C7200C95602 /* HairCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairCollectionViewController.swift; sourceTree = "<group>"; };
+		E746396224234C9000C95602 /* FaceCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCollectionViewController.swift; sourceTree = "<group>"; };
+		E746396424234CF600C95602 /* BodyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCollectionViewController.swift; sourceTree = "<group>"; };
+		E746396624234D0B00C95602 /* GlassesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesCollectionViewController.swift; sourceTree = "<group>"; };
+		E746396824234D8300C95602 /* HairCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairCollectionViewCell.swift; sourceTree = "<group>"; };
+		E746396A24234D9A00C95602 /* FaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		E746396C24234DBE00C95602 /* BodyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCollectionViewCell.swift; sourceTree = "<group>"; };
+		E746396E24234DDD00C95602 /* GlassesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 				E746394E2423404D00C95602 /* SceneDelegate.swift */,
 				E74639502423404D00C95602 /* ViewController.swift */,
 				E74639522423404D00C95602 /* Main.storyboard */,
+				E746396024234C7200C95602 /* HairCollectionViewController.swift */,
+				E746396224234C9000C95602 /* FaceCollectionViewController.swift */,
+				E746396424234CF600C95602 /* BodyCollectionViewController.swift */,
+				E746396624234D0B00C95602 /* GlassesCollectionViewController.swift */,
+				E746396824234D8300C95602 /* HairCollectionViewCell.swift */,
+				E746396A24234D9A00C95602 /* FaceCollectionViewCell.swift */,
+				E746396C24234DBE00C95602 /* BodyCollectionViewCell.swift */,
+				E746396E24234DDD00C95602 /* GlassesCollectionViewCell.swift */,
 				E74639552423405000C95602 /* Assets.xcassets */,
 				E74639572423405000C95602 /* LaunchScreen.storyboard */,
 				E746395A2423405000C95602 /* Info.plist */,
@@ -138,7 +162,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E746396524234CF600C95602 /* BodyCollectionViewController.swift in Sources */,
+				E746396F24234DDD00C95602 /* GlassesCollectionViewCell.swift in Sources */,
+				E746396B24234D9A00C95602 /* FaceCollectionViewCell.swift in Sources */,
+				E746396124234C7200C95602 /* HairCollectionViewController.swift in Sources */,
+				E746396924234D8300C95602 /* HairCollectionViewCell.swift in Sources */,
+				E746396D24234DBE00C95602 /* BodyCollectionViewCell.swift in Sources */,
 				E74639512423404D00C95602 /* ViewController.swift in Sources */,
+				E746396324234C9000C95602 /* FaceCollectionViewController.swift in Sources */,
+				E746396724234D0B00C95602 /* GlassesCollectionViewController.swift in Sources */,
 				E746394D2423404D00C95602 /* AppDelegate.swift in Sources */,
 				E746394F2423404D00C95602 /* SceneDelegate.swift in Sources */,
 			);
